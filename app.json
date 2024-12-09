@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "community-garden",
+    "slug": "community-garden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://communitygarden.theinternetplatform.com/favicon.ico",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires access to the camera for taking photos.",
+        "NSPhotoLibraryUsageDescription": "This app requires access to your photo library.",
+        "NSLocationWhenInUseUsageDescription": "This app needs your location.",
+        "NSMicrophoneUsageDescription": "This app needs access to the microphone.",
+        "NSCalendarsUsageDescription": "This app needs access to your calendar to add events."
+      },
+      "bundleIdentifier": "com.anonymous.communitygarden"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "NOTIFICATIONS",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ],
+      "package": "com.anonymous.communitygarden"
+    },
+    "web": {
+      "favicon": "https://communitygarden.theinternetplatform.com/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e06f145-a55e-47d5-8c0a-17ac0ef9b2bd"
+      }
+    }
+  }
+}
